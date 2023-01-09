@@ -12,7 +12,8 @@ module.exports = {
         'day': '#07142A'
       },
       colors: {
-        'extend': '#C0D2EB'
+        'extend': '#C0D2EB',
+        '708': '#7084A4'
       },
       scale: {
         '999': '999'
