@@ -1,7 +1,7 @@
 import React from 'react'
-import './App.css'
+import { FaBeer } from 'react-icons/fa';
 export default function App() {
     return (
-        <div>App</div>
+        <div className="shadow-sm  rounded-lg h-18 bg-red-400"> <FaBeer />App</div>
     )
 }
