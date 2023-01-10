@@ -1,9 +1,8 @@
-import React from 'react'
 import { AiOutlineSync, AiFillCrown } from 'react-icons/ai'
 export default function UserInfo() {
     return (
-        <div className='m-4 flex flex-row justify-between items-center h-10 leading-10'>
-            <img src="../../public/images/avatar.png" alt="" className='w-8 h-8 rounded-full' />
+        <div className='mt-1 mb-4 flex flex-row justify-between items-center h-10 leading-8'>
+            <img src="/images/avatar.png" alt="" className='w-8 h-8 rounded-full' />
             <div className='flex flex-row items-center'>
                 <AiOutlineSync size={18} className='mr-2' />
                 <AiFillCrown size={18} className='mr-2' />
