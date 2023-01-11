@@ -6,12 +6,12 @@ export default function LeftNav() {
     let [current, setCurrent] = useState<any>([{
         key: 'collect',
         name: '我的收藏',
-        active: true
+        active: false
     },
     {
         key: 'notes',
         name: '所有笔记',
-        active: false,
+        active: true,
         children: [
             {
                 index: 1,
@@ -55,12 +55,12 @@ export default function LeftNav() {
         }
     }
     return (
-        <div className='flex flex-col justify-center '>
+        <div className='flex flex-col justify-center'>
             {
                 current.map((item: any, index: number) => {
                     return <>
                         {
-                            index === 1 && <div className='flex flex-row  justify-between items-center ml-2 mt-6'>
+                            index === 1 && <div className='flex flex-row  justify-between items-center ml-2 mt-6 mb-3'>
                                 <span className='text-xs text-708 hover:cursor-pointer'>个人笔记</span>
                                 <AiOutlineEllipsis size={20} color='#7084A4' className='hover:cursor-pointer' />
                             </div>
