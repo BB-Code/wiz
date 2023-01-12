@@ -83,3 +83,8 @@
 .create-icon:hover {
     background-color: #2F60B2;
 }
+
+.total-text {
+    color: #7084A4;
+    font-size: 12px;
+}

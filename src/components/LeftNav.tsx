@@ -64,7 +64,7 @@ export default function LeftNav() {
         <div className='flex flex-col justify-center'>
             {
                 current.map((item: any, index: number) => {
-                    return <>
+                    return <div key={index}>
                         {
                             index === 1 && <div className='flex flex-row  justify-between items-center ml-2 mt-6 mb-3'>
                                 <span className='text-xs text-708 hover:cursor-pointer'>个人笔记</span>
@@ -102,7 +102,7 @@ export default function LeftNav() {
                                 </div>
                             })
                         }
-                    </>
+                    </div>
                 })
             }
         </div>

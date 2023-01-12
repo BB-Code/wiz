@@ -1,15 +1,13 @@
-import React from 'react'
-import { FaBeer } from 'react-icons/fa';
 import LeftPanel from './components/LeftPanel';
 import NotesNav from './components/NotesNav';
-import NotesWork from './components/NotesWork';
+import Workbench from './components/Workbench';
 
 export default function App() {
     return (
         <div className='flex flex-row'>
             <LeftPanel />
             <NotesNav />
-            <NotesWork />
+            <Workbench />
         </div>
     )
 }

@@ -9,7 +9,7 @@
 
 .notes-resize-save {
     position: absolute;
-    top: 0;
+    top:0;
     right: 5px;
     bottom: 0;
     left: 0;
@@ -20,6 +20,7 @@
 .notes-resize-bar {
     min-width: 208px;
     max-width: 768px;
+    width: 306px;
     height: inherit;
     resize: horizontal;
     cursor: ew-resize;

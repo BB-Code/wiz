@@ -9,6 +9,7 @@ export default function NotesNav() {
             <div className="notes-resize-line"></div>
             <div className='notes-resize-save'>
                 <SearchTop />
+                <NoteList />
             </div>
         </div>
     )
