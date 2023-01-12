@@ -31,6 +31,7 @@ export default function LeftNav() {
         active: false
     }])
     let [option, setOption] = useState(false)
+    let [hidden, setHidden] = useState(false)
     const changeNav = (data: any, type: number) => {
         current.map((item: any) => {
             if (type === 1) {
@@ -72,7 +73,9 @@ export default function LeftNav() {
                         }
                         <div className={item.active ? 'flex flex-row mb-2 items-center  hover:cursor-pointer p-2 active' : 'flex flex-row  mb-2 items-center  hover:cursor-pointer p-2'} key={item.key}
                             onMouseOver={() => {
-                                showOption(item.key)
+                                setHidden(false)
+                            }} onMouseLeave={() => {
+                                setHidden(true)
                             }}
                             onClick={() => {
                                 changeNav(item.key, 1)
@@ -83,7 +86,7 @@ export default function LeftNav() {
                             {
                                 item.option ? <div className='flex justify-between items-center w-full'>
                                     <span className='text-sm text-extend '>{item.name}</span>
-                                    <div id='option' className='flex flex-row justify-end'>
+                                    <div id='option' className={!item.active && hidden ? 'flex-row justify-end hidden' : 'flex flex-row justify-end '}>
                                         <span><AiOutlinePlus size={14} color='#7084A4' className='mr-2' /></span>
                                         <span><AiOutlineDown size={14} color='#7084A4' /></span>
                                     </div>
