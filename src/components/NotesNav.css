@@ -1,15 +1,13 @@
-.left-panel {
+.notes-nav {
     height: 400px;
-    background-color: #222530;
+    background-color: #F5F8FB;
     color: #C0D2EB;
     position: relative;
     float: left;
     height: 100vh;
-
-
 }
 
-.resize-save {
+.notes-resize-save {
     position: absolute;
     top: 0;
     right: 5px;
@@ -19,10 +17,9 @@
     overflow-x: hidden;
 }
 
-.resize-bar {
-    width: 200px;
-    min-width: 250px;
-    max-width: 324px;
+.notes-resize-bar {
+    min-width: 208px;
+    max-width: 768px;
     height: inherit;
     resize: horizontal;
     cursor: ew-resize;
@@ -32,7 +29,7 @@
 }
 
 /* 拖拽线 */
-.resize-line {
+.notes-resize-line {
     position: absolute;
     right: 0;
     top: 0;
@@ -42,12 +39,17 @@
     pointer-events: none;
 }
 
-.resize-bar:hover~.resize-line,
-.resize-bar:active~.resize-line {
+.notes-resize-bar:hover~.notes-resize-line,
+.notes-resize-bar:active~.notes-resize-line {
     border-left: 1px dashed skyblue;
 }
 
-.resize-bar::-webkit-scrollbar {
+.notes-resize-bar::-webkit-scrollbar {
     height: inherit;
     width: 4px !important;
+}
+
+.notes-resize-save::-webkit-scrollbar {
+    width: 4px;
+    background-color: #C4C6C9;
 }

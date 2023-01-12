@@ -9,7 +9,8 @@ module.exports = {
       backgroundColor: {
         'extend': '#222530',
         'note': '#F5F8FB',
-        'day': '#07142A'
+        'day': '#07142A',
+        'hover': '#DFE8F0'
       },
       colors: {
         'extend': '#C0D2EB',

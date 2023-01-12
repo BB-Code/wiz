@@ -1,0 +1,23 @@
+.note-item {
+    height: 90px;
+    border-bottom: 1px solid #DAE6F2;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.note-item:hover {
+    background-color: #E7ECF2;
+}
+
+.note-item-active {
+    background-color: #DAE6F2;
+}
+
+.note-item-title {
+    color: #07142A;
+}
+
+.note-item-date {
+    color: #7084A4;
+    font-size: 12.8px;
+}
