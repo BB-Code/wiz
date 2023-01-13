@@ -12,3 +12,9 @@ Vite + React + tailwindcss + react-icon + Zustand + swr
 - [react-icon](https://react-icons.github.io/react-icons)
 - [Zustand](https://zustand-demo.pmnd.rs/)
 - [swr](https://swr.vercel.app/zh-CN)
+
+
+# Preview
+
+![](https://blog-img-1252233196.cos.ap-guangzhou.myqcloud.com/微信截图_20230113173225.png)
+
