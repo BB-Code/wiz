@@ -1,5 +1,5 @@
 import { AiOutlineUsergroupAdd } from 'react-icons/ai';
-import img from '../../public/images/no-opened-notes.png'
+import img from '/images/no-opened-notes.png'
 import Editor from './Editor';
 import TemplateBlock from './TemplateBlock';
 import './Workbench.css'
@@ -10,7 +10,7 @@ interface Props {
 export default function Workbench(props: Props) {
     const { selected } = props;
     return (
-        <div className='flex justify-center'>
+        <div id='workbench' className='workbench flex justify-center'>
             {
                 selected ? <div className='flex flex-col'>
                     <div className='title-block flex items-center'>

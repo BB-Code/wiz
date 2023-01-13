@@ -1,7 +1,13 @@
+.workbench {
+    position: relative;
+    float: left;
+
+}
+
 .title-block {
-    position: absolute;
+    position: relative;
     top: 2%;
-    left: 36%;
+    left: 50%;
 }
 
 .title-input {

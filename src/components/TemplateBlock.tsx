@@ -1,5 +1,4 @@
-
-import img from '../../public/images/templateblock.png'
+import img from '/images/templateblock.png'
 import './TemplateBlock.css'
 export default function TemplateBlock() {
     return (
