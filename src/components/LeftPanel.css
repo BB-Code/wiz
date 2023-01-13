@@ -25,8 +25,8 @@
     max-width: 324px;
     height: inherit;
     resize: horizontal;
-    cursor: ew-resize;
-    cursor: col-resize;
+    /* cursor: ew-resize;
+    cursor: col-resize; */
     opacity: 0;
     overflow: scroll;
 }
