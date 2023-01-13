@@ -7,7 +7,7 @@ export default function App() {
         <div className='flex flex-row'>
             <LeftPanel />
             <NotesNav />
-            <Workbench />
+            <Workbench selected />
         </div>
     )
 }

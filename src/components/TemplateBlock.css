@@ -1,0 +1,23 @@
+.template-block {
+    top: 64%;
+    left: 38%;
+}
+
+.template-tip {
+    color: #B2BCCD;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.item {
+    width: 130px;
+    height: 160px;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+}
